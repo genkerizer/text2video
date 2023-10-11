@@ -1,0 +1,554 @@
+@charset "UTF-8";
+/*font Variables*/
+/*Color Variables*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,700,900");
+
+a.home:before{
+  content: "\f447";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font: normal normal normal 30px/50px Ionicons;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline;
+  float: left;
+  color: #247e10;
+}
+a.home-right{
+  position: absolute!important;
+  right: 0;
+  top: 0;
+  float: right;
+}
+.multi_step_form {
+  background: #f6f9fbc9;
+  display: block;
+  overflow: hidden;
+  min-height: 100vh;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.multi_step_form #msform {
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0 auto;
+  margin: 40px auto;
+  z-index: 1;
+}
+.multi_step_form #msform .tittle {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.multi_step_form #msform .tittle h2 {
+  font: 500 24px/35px "Roboto", sans-serif;
+  color: #3f4553;
+  padding-bottom: 5px;
+}
+.multi_step_form #msform .tittle p {
+  font: 400 16px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset {
+  border: 0;
+  padding: 20px 105px 0;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.multi_step_form #msform fieldset:not(:first-of-type) {
+  display: none;
+}
+.multi_step_form #msform fieldset h3 {
+  font: 500 18px/35px "Roboto", sans-serif;
+  color: #3f4553;
+}
+.multi_step_form #msform fieldset h6 {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+  padding-bottom: 30px;
+}
+.multi_step_form #msform fieldset .intl-tel-input {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag {
+  padding: 0 20px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  width: 65px;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow {
+  border: 0;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: normal normal normal 24px/7px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset #phone {
+  padding-left: 80px;
+}
+.multi_step_form #msform fieldset .form-group {
+  padding: 0 10px;
+}
+.multi_step_form #msform fieldset .fg_2,
+.multi_step_form #msform fieldset .fg_3 {
+  padding-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform fieldset .fg_3 {
+  padding-bottom: 70px;
+}
+.multi_step_form #msform fieldset .form-control,
+.multi_step_form #msform fieldset .product_select {
+  border-radius: 3px;
+  border: 1px solid #d8e1e7;
+  padding: 0 20px;
+  height: auto;
+  font: 400 15px/48px "Roboto", sans-serif;
+  color: #5f6771;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+}
+.multi_step_form #msform fieldset .form-control.placeholder,
+.multi_step_form #msform fieldset .product_select.placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:-moz-placeholder,
+.multi_step_form #msform fieldset .product_select:-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-moz-placeholder,
+.multi_step_form #msform fieldset .product_select::-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-webkit-input-placeholder,
+.multi_step_form #msform fieldset .product_select::-webkit-input-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:hover, .multi_step_form #msform fieldset .form-control:focus,
+.multi_step_form #msform fieldset .product_select:hover,
+.multi_step_form #msform fieldset .product_select:focus {
+  border-color: #5cb85c;
+}
+.multi_step_form #msform fieldset .form-control:focus.placeholder,
+.multi_step_form #msform fieldset .product_select:focus.placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus:-moz-placeholder,
+.multi_step_form #msform fieldset .product_select:focus:-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-moz-placeholder,
+.multi_step_form #msform fieldset .product_select:focus::-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-webkit-input-placeholder,
+.multi_step_form #msform fieldset .product_select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .product_select:after {
+  display: none;
+}
+.multi_step_form #msform fieldset .product_select:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font: normal normal normal 24px/48px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .product_select .list {
+  width: 100%;
+}
+.multi_step_form #msform fieldset .done_text {
+/*  padding-top: 40px;*/
+}
+.multi_step_form #msform fieldset .done_text .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background: #5cb85c;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .done_text h6 {
+  line-height: 23px;
+}
+.multi_step_form #msform fieldset .code_group {
+  margin-bottom: 60px;
+}
+.multi_step_form #msform fieldset .code_group .form-control {
+  border: 0;
+  border-bottom: 1px solid #a1a7ac;
+  border-radius: 0;
+  display: inline-block;
+  width: 30px;
+  font-size: 30px;
+  color: #5f6771;
+  padding: 0;
+  margin-right: 7px;
+  text-align: center;
+  line-height: 1;
+}
+.multi_step_form #msform fieldset .passport {
+  margin-top: -10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.multi_step_form #msform fieldset .passport .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #5cb85c;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .passport h4 {
+  font: 500 15px/23px "Roboto", sans-serif;
+  color: #5f6771;
+  padding: 0;
+}
+.multi_step_form #msform fieldset .input-group {
+  padding-bottom: 40px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file {
+  width: 100%;
+  height: auto;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label {
+  width: 168px;
+  border-radius: 5px;
+  cursor: pointer;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #99a2a8;
+  text-align: center;
+  transition: all 300ms linear 0s;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:hover, .multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:focus {
+  background: #5cb85c;
+  border-color: #5cb85c;
+  color: #fff;
+}
+.multi_step_form #msform fieldset .input-group .custom-file input {
+  display: none;
+}
+.multi_step_form #msform fieldset .file_added {
+  text-align: left;
+  padding-left: 190px;
+  padding-bottom: 60px;
+}
+.multi_step_form #msform fieldset .file_added li {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .file_added li a {
+  color: #5cb85c;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+.multi_step_form #msform fieldset .file_added li a i {
+  font-size: 22px;
+  padding-right: 8px;
+  position: absolute;
+  left: 0;
+  transform: rotate(20deg);
+}
+.multi_step_form #msform #progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.multi_step_form #msform #progressbar li {
+  list-style-type: none;
+  color: #4d4d4d;
+  font-size: 9px;
+  width: calc(100% / 3);
+  float: left;
+  position: relative;
+  font: 500 13px/1 "Roboto", sans-serif;
+}
+.multi_step_form #msform #progressbar li:nth-child(2):before {
+  content: "\f471";
+}
+.multi_step_form #msform #progressbar li:nth-child(3):before {
+  content: "\f413";
+}
+.multi_step_form #msform #progressbar li:before {
+  content: "\f40a";
+  font: normal normal normal 30px/50px Ionicons;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #cfd2d4;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+.multi_step_form #msform #progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: #cfd2d4;
+  position: absolute;
+  left: -50%;
+  top: 21px;
+  z-index: -1;
+}
+.multi_step_form #msform #progressbar li:last-child:after {
+  width: 150%;
+}
+.multi_step_form #msform #progressbar li.active {
+  color: #5cb85c;
+}
+.multi_step_form #msform #progressbar li.active:before, .multi_step_form #msform #progressbar li.active:after {
+  background: #5cb85c;
+  color: white;
+}
+.multi_step_form #msform .action-button {
+  background: #5cb85c;
+  color: white;
+  border: 0 none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 130px;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #5cb85c;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.multi_step_form #msform .action-button:hover, .multi_step_form #msform .action-button:focus {
+  background: #405867;
+  border-color: #405867;
+}
+.multi_step_form #msform .previous_button {
+  background: #FFF;
+  color: #4d4d4d;
+  border-color: #99a2a8;
+}
+.multi_step_form #msform .previous_button:hover, .multi_step_form #msform .previous_button:focus {
+  background: #405867;
+  border-color: #405867;
+  color: #fff;
+}
+
+@charset "UTF-8";
+.fullloader{
+  background-color: #ffffffa3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 99;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  font-family: Helvetica;
+}
+
+.loader {
+  height: 20px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.loader--dot {
+  animation-name: loader;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  border: 2px solid white;
+}
+.loader--dot:first-child {
+  background-color: #8cc759;
+  animation-delay: 0.5s;
+}
+.loader--dot:nth-child(2) {
+  background-color: #8c6daf;
+  animation-delay: 0.4s;
+}
+.loader--dot:nth-child(3) {
+  background-color: #ef5d74;
+  animation-delay: 0.3s;
+}
+.loader--dot:nth-child(4) {
+  background-color: #f9a74b;
+  animation-delay: 0.2s;
+}
+.loader--dot:nth-child(5) {
+  background-color: #60beeb;
+  animation-delay: 0.1s;
+}
+.loader--dot:nth-child(6) {
+  background-color: #fbef5a;
+  animation-delay: 0s;
+}
+.loader--text {
+  position: absolute;
+  top: 200%;
+  left: 0;
+  right: 0;
+  width: 10rem;
+  margin: auto;
+}
+.loader--text:after {
+  content: "Đang xử lý video";
+  font-weight: bold;
+  animation-name: loading-text;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  15% {
+    transform: translateX(0);
+  }
+  45% {
+    transform: translateX(230px);
+  }
+  65% {
+    transform: translateX(230px);
+  }
+  95% {
+    transform: translateX(0);
+  }
+}
+@keyframes loading-text {
+  0% {
+    content: "Đang xử lý video";
+  }
+  25% {
+    content: "Đang xử lý video .";
+  }
+  50% {
+    content: "Đang xử lý video ..";
+  }
+  75% {
+    content: "Đang xử lý video ...";
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  /* padding: 24px; */
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  padding: 10px;
+  background: #FFF;
+}
+
+.table-header {
+  display: flex;
+  width: 100%;
+  background: #000;
+  padding: 18px 0;
+  color: white;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+}
+.table-row:nth-of-type(odd) {
+  background: #eeeeee;
+}
+
+.table-data,
+.header__item {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.header__item {
+  text-transform: uppercase;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #e0e6eb;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+svg g {
+  mix-blend-mode: lighten;
+}
+svg polygon {
+  stroke: none;
+  fill: white;
+}
