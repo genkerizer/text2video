@@ -46,7 +46,7 @@ Dự án được thực hiện nhằm mục đích cho phép tạo sinh video n
 
 ### Front-end
 
-
+<a href="https://github.com/genkerizer/text2video/blob/main/frontend/text2video/README.md">Xem chi tiết</a>
 
 ## How to use
 
