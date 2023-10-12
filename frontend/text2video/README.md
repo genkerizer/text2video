@@ -26,11 +26,13 @@
     - Chạy lệnh `php artisan config:cache` để cập nhập các cấu hình.
       
 - Note: Do khi gửi data (video, promt) sang AI back-end cần sửa đổi lại địa chỉ của server trên local được config bởi ngrok (hoặc ip, domain cụ thể):
-    - Trong file `App\Http\Controllers\Videocontroller` thay thế biên $serverUrl bằng url cần gửi dữ liệu. </br>
+    - Trong file `App\Http\Controllers\Videocontroller` thay thế biến $serverUrl bằng url cần gửi dữ liệu. </br>
    `$serverUrl = 'http://7b48-185-32-161-60.ngrok.io/';`
 
 
 ## How to use
+
+- Chọn video > Chọn ngôn ngữ > Nhập Prompt mô tả.
 <div align="center">
     <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/274682831-0e671bd3-24ce-4466-938b-5434bd470954.png" width="400" alt="Giao diện web">
     <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/274684180-ba13800c-c873-494b-b747-e6506e9870df.png" width="400" alt="Giao diện web">
