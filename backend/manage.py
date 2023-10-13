@@ -100,11 +100,15 @@ class VideoTextAPI:
                 prompt = request.form["prompt"]
                 video_url = request.form["video"]
                 lang = request.form["lang"]
+                step = request.form["step"]
+                guidance_scale = request.form["guidance_scale"]
             else:
                 id_ = request.args.get("id")
                 prompt = request.args.get("prompt")
                 video_url = request.args.get("video")
                 lang = request.args.get("lang")
+                step = request.args.get["step"]
+                guidance_scale = request.args.get["guidance_scale"]
 
             prompt = VideoTextAPI.prompt_process(prompt)
             if prompt is None:
@@ -113,7 +117,7 @@ class VideoTextAPI:
             save_local_path = VideoTextAPI.download_file(video_url)
             if save_local_path is None:
                 return jsonify(status_code['402'])
-            video_path = backend_runing([save_local_path, prompt, int(lang)])
+            video_path = backend_runing([save_local_path, prompt, int(lang), step, guidance_scale])
             result = VideoTextAPI.sendfile(video_path, int(id_))
             if result is None:
                 return jsonify(status_code['500'])

@@ -32,11 +32,12 @@ Dự án được thực hiện nhằm mục đích cho phép tạo sinh video n
     
 - Cài đặt các thư viện cần thiết
     ```bash
-    cd multimedia_api
+    cd text2video
     pip install -r requirements.txt
     git lfs install
     pip install -U openmim
     mim install mmcv==2.0.0
+    cd backend
     sh download_module.sh
     ```
 - Note: Do dự án dùng generative model nên dung lượng của module tải xuống khá nặng ``(9GB)``. Trong module tải xuống gồm:
@@ -46,7 +47,7 @@ Dự án được thực hiện nhằm mục đích cho phép tạo sinh video n
 
 ### Front-end
 
-<a href="https://github.com/genkerizer/text2video/blob/main/frontend/text2video/README.md">Xem chi tiết</a>
+<a href="https://github.com/genkerizer/text2video/blob/main/frontend/README.md">Xem chi tiết</a>
 
 ## How to use
 
@@ -64,13 +65,24 @@ Dự án được thực hiện nhằm mục đích cho phép tạo sinh video n
     * Running on http://ddd2-34-16-128-235.ngrok.io
     * Traffic stats available on http://127.0.0.1:4040
     ```
--
+- Thông tin địa chỉ ngrok dùng để kết nối front-end và back-end, ví dụ ``http://ddd2-34-16-128-235.ngrok.io`` <a href="https://github.com/genkerizer/text2video/blob/main/frontend/README.md">Xem chi tiết</a>
 
 
 ## Test examples
 
+<video controls>
+   <source src="assets/sample1.mp4" type="video/extension">
+</video>
+
+
+## Reference
+- [MMPOSE](https://github.com/open-mmlab/mmpose)
+- [Follow-your-pose](https://github.com/mayuelala/FollowYourPose)
+- [Envit5](https://huggingface.co/VietAI/envit5-translation)
 
 ## Contact
+- [Nguyễn Y Hợp](mailto:22c15006@student.hcmus.edu.vn)
+- [Cao Cảnh Linh](mailto:22c15006@student.hcmus.edu.vn)
 
 
 
