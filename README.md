@@ -70,10 +70,63 @@ Dự án được thực hiện nhằm mục đích cho phép tạo sinh video n
 
 ## Test examples
 
-<video controls>
-   <source src="assets/sample1.mp4" type="video/extension">
-</video>
+### Một số kết quả test
 
+<table class="center">
+<tr>
+  <td><img src="assets/samples/0002.gif"></td>
+  <td><img src="assets/samples/0003.gif"></td>
+  <td><img src="assets/samples/0004.gif"></td>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">Trump ở trên biển</td>
+  <td width=25% style="text-align:center;">Gấu trúc trên mặt nước</td>
+  <td width=25% style="text-align:center;">Cô gái nhảy trên núi</td>
+</tr>
+</table>
+
+### Một số vấn đề
+
+Việc phát hiện pose nhiều khi không đủ số lượng keypoint, điều này gây ảnh hưởng đến kết quả
+
+<table class="center">
+<tr>
+  <td><img src="assets/problem/pose/0001.png"></td>
+  <td><img src="assets/problem/pose/0002.png"></td>
+  <td><img src="assets/problem/pose/0003.png"></td>
+  <td><img src="assets/problem/pose/0004.png"></td>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">Mất tay phải</td>
+  <td width=25% style="text-align:center;">Mất hoàn toán các keypoint"</td>
+  <td width=25% style="text-align:center;">Tình trạng xoay nghiêng ngừoi làm mất keypoint</td>
+  <td width=25% style="text-align:center;">Mất chân và tay</td>
+</tr>
+</table>
+
+Điều này dẫn đến một số kết quả khá kém, thậm chí, kết quả khổng biểu hiển ra được hình người vốn có, đây cũng là vấn đề lớn nhất của dự án cần phải giải quyết
+<table class="center">
+<tr>
+  <td><img src="assets/problem/generated_result/0001.gif"></td>
+  <td><img src="assets/problem/generated_result/0002.gif"></td>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">Cô gái nhảy múa trên cát</td>
+  <td width=25% style="text-align:center;">Cô gái ở trên ngọn núi"</td>
+</tr>
+</table>
 
 ## Reference
 - [MMPOSE](https://github.com/open-mmlab/mmpose)
@@ -82,7 +135,7 @@ Dự án được thực hiện nhằm mục đích cho phép tạo sinh video n
 
 ## Contact
 - [Nguyễn Y Hợp](mailto:22c15006@student.hcmus.edu.vn)
-- [Cao Cảnh Linh](mailto:22c15006@student.hcmus.edu.vn)
+- [Cao Cảnh Linh](mailto:22c15034@student.hcmus.edu.vn)
 
 
 
