@@ -106,8 +106,8 @@ Việc phát hiện pose nhiều khi không đủ số lượng keypoint, điề
 </tr>
 <tr>
   <td width=25% style="text-align:center;">Mất tay phải</td>
-  <td width=25% style="text-align:center;">Mất hoàn toán các keypoint"</td>
-  <td width=25% style="text-align:center;">Tình trạng xoay nghiêng người làm mất keypoint</td>
+  <td width=25% style="text-align:center;">Mất hoàn toán các keypoints</td>
+  <td width=25% style="text-align:center;">Tình trạng xoay nghiêng người làm mất keypoints</td>
   <td width=25% style="text-align:center;">Mất chân và tay</td>
 </tr>
 </table>
