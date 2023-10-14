@@ -112,7 +112,7 @@ Việc phát hiện pose nhiều khi không đủ số lượng keypoint, điề
 </tr>
 </table>
 
-Điều này dẫn đến một số kết quả khá kém, thậm chí, kết quả khổng biểu hiển ra được hình người vốn có, đây cũng là vấn đề lớn nhất của dự án cần phải giải quyết
+Dẫn đến một số kết quả khá kém, thậm chí, kết quả không thể hiện ra được hình người vốn có, đây cũng là vấn đề lớn nhất của dự án cần phải giải quyết
 <table class="center">
 <tr>
   <td><img src="assets/problem/generated_result/0001.gif"></td>
