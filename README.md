@@ -124,7 +124,7 @@ Dẫn đến một số kết quả khá kém, thậm chí, kết quả không t
 </tr>
 <tr>
   <td width=25% style="text-align:center;">Cô gái nhảy múa trên cát</td>
-  <td width=25% style="text-align:center;">Cô gái ở trên ngọn núi"</td>
+  <td width=25% style="text-align:center;">Cô gái ở trên ngọn núi</td>
 </tr>
 </table>
 
