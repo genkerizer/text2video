@@ -31,11 +31,13 @@
 
 
 ## How to use
-
+- Giao diện trang chủ
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/275184004-b23d1fda-6f7b-48ca-8faf-5e1ea5a4d15b.png" width="400" alt="Giao diện web">
 - Chọn video > Chọn ngôn ngữ > Nhập Prompt mô tả.
 <div align="center">
-    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/274682831-0e671bd3-24ce-4466-938b-5434bd470954.png" width="400" alt="Giao diện web">
-    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/274684180-ba13800c-c873-494b-b747-e6506e9870df.png" width="400" alt="Giao diện web">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/274682831-0e671bd3-24ce-4466-938b-5434bd470954.png" width="300" alt="Giao diện web">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/274684180-ba13800c-c873-494b-b747-e6506e9870df.png" width="300" alt="Giao diện web">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/44583838/275183941-7ffd6ca7-b2fe-4d2e-85fb-9e9f53f4baa8.png" width="300" alt="Giao diện web">
 </div>
 
 
